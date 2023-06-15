@@ -15,10 +15,34 @@
 - Kemudian jalankan aplikasi dengan ``$ pm2 serve build``<br/><br/>![5  pm2 serve build](https://github.com/darblietz/devops17-dumbways--M-Yusuf-Haidar-Week-2-Web-Server-Load-Balancing/assets/98991080/1221e638-6c7d-489d-be78-62e6299b90c0)<br/><br/>
 - Kita bisa liat bahwa aplikasi sudah berjalan di port 8080.<br/><br/>![6  port 8080](https://github.com/darblietz/devops17-dumbways--M-Yusuf-Haidar-Week-2-Web-Server-Load-Balancing/assets/98991080/fb75274a-2e80-4483-8a95-d588753bea81)<br/><br/>
 - Langsung akses IP:8080 di Web Browser untuk memastikan Aplikasi berjalan atau tidak.<br/><br/>![7  Akses aplikasi di Web](https://github.com/darblietz/devops17-dumbways--M-Yusuf-Haidar-Week-2-Web-Server-Load-Balancing/assets/98991080/fd4820ca-a7b3-4595-b128-4d1dbf9db2d2)<br/><br/>
-- 
-
-
-
-
 
 #### 3. buatlah konfigurasi reverse proxy!<br/>(Gunakan 2 server untuk memenuhi challenge, tidak wajib)
+
+- Pertama masuk ke folder nginx ``$ cd /etc/nginx`` dan membuat folder ``$ sudo mkdir dumbways``<br/><br/>![1](https://github.com/darblietz/devops17-dumbways--M-Yusuf-Haidar-Week-2-Web-Server-Load-Balancing/assets/98991080/0b61b1d4-01ac-43fa-b7f3-8b4a6998de50)<br/><br/>
+- <br/><br/><br/><br/>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
