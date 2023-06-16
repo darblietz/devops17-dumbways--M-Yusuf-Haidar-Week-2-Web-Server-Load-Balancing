@@ -27,7 +27,10 @@
 - Untuk mengecek konfigurasi dengan perintah ``$ sudo nginx -t``<br/><br/>![6](https://github.com/darblietz/devops17-dumbways--M-Yusuf-Haidar-Week-2-Web-Server-Load-Balancing/assets/98991080/c9b3090d-2ecb-4f6a-9db0-f29f977f5050)<br/><br/>
 - Jika sudah **susuccessful** tinggal merestart nginx-nya ``$ sudo systemctl restart nginx``<br/><br/>![7](https://github.com/darblietz/devops17-dumbways--M-Yusuf-Haidar-Week-2-Web-Server-Load-Balancing/assets/98991080/72e00b62-c235-434a-9127-56e7a5e01c3a)<br/><br/>
 - Sekarang membuat Virtual Host, masuk ke local server dan masuk ke dalam file ``$ /etc/hosts``<br/><br/>![8](https://github.com/darblietz/devops17-dumbways--M-Yusuf-Haidar-Week-2-Web-Server-Load-Balancing/assets/98991080/514d3a2c-5dbf-4c31-be73-e9bbf4e66d4d)<br/><br/>
-- <br/><br/><br/><br/>
+- Lakukan secara manual juga difolder kita dan masukkan ip dan nama domain <br/><br/>![9](https://github.com/darblietz/devops17-dumbways--M-Yusuf-Haidar-Week-2-Web-Server-Load-Balancing/assets/98991080/7cd3e1b9-9f6e-4498-92dd-d1fb798f1de6)
+![10](https://github.com/darblietz/devops17-dumbways--M-Yusuf-Haidar-Week-2-Web-Server-Load-Balancing/assets/98991080/dd63db55-0670-4095-b579-e64a9435552f)<br/><br/>
+- Dan kita coba akses Nama domain yang sudah kita buat di Web browser.<br/><br/>
+
 
 
 
