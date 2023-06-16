@@ -21,6 +21,10 @@
 - Pertama masuk ke folder nginx ``$ cd /etc/nginx`` dan membuat folder ``$ sudo mkdir dumbways``<br/><br/>![1](https://github.com/darblietz/devops17-dumbways--M-Yusuf-Haidar-Week-2-Web-Server-Load-Balancing/assets/98991080/0b61b1d4-01ac-43fa-b7f3-8b4a6998de50)<br/><br/>
 - Dan buat folder ``$ sudo nano my-proxy.conf``<br/><br/>![2](https://github.com/darblietz/devops17-dumbways--M-Yusuf-Haidar-Week-2-Web-Server-Load-Balancing/assets/98991080/b1be629d-a6a3-49cc-b708-90fb4d81f434)<br/><br/>
 - Setelah masuk, masukkan konfigurasi :<br/><br/>![3](https://github.com/darblietz/devops17-dumbways--M-Yusuf-Haidar-Week-2-Web-Server-Load-Balancing/assets/98991080/51073bd9-29f7-4baf-9a3f-ebd0d96afb79)<br/><br/>
+  **Note**: pastikan port 8080 diganti dengan aplikasi yang digunakan
+- Keluar dari folder dumbways, dan masuk ke file nginx dengan perintah ``$ sudo nano nginx.conf``<br/><br/>![4](https://github.com/darblietz/devops17-dumbways--M-Yusuf-Haidar-Week-2-Web-Server-Load-Balancing/assets/98991080/13d6b9a0-a6f7-4e91-982b-ae001a0abc15)<br/><br/>
+- Pergi ke bagian **include**, dan masukan lokasi dari direktori yang berisi konfigurasi yang sudah dibuat.<br/><br/>![5](https://github.com/darblietz/devops17-dumbways--M-Yusuf-Haidar-Week-2-Web-Server-Load-Balancing/assets/98991080/bfe471d6-732c-4c40-a143-b5c51065930d)<br/><br/>
+- Untuk mengecek konfigurasi dengan perintah ``$ sudo nginx -t``<br/><br/>![6](https://github.com/darblietz/devops17-dumbways--M-Yusuf-Haidar-Week-2-Web-Server-Load-Balancing/assets/98991080/c9b3090d-2ecb-4f6a-9db0-f29f977f5050)<br/><br/>
 - <br/><br/><br/><br/>
 
 
