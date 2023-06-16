@@ -19,6 +19,8 @@
 #### 3. buatlah konfigurasi reverse proxy!<br/>(Gunakan 2 server untuk memenuhi challenge, tidak wajib)
 
 - Pertama masuk ke folder nginx ``$ cd /etc/nginx`` dan membuat folder ``$ sudo mkdir dumbways``<br/><br/>![1](https://github.com/darblietz/devops17-dumbways--M-Yusuf-Haidar-Week-2-Web-Server-Load-Balancing/assets/98991080/0b61b1d4-01ac-43fa-b7f3-8b4a6998de50)<br/><br/>
+- Dan buat folder ``$ sudo nano my-proxy.conf``<br/><br/>![2](https://github.com/darblietz/devops17-dumbways--M-Yusuf-Haidar-Week-2-Web-Server-Load-Balancing/assets/98991080/b1be629d-a6a3-49cc-b708-90fb4d81f434)<br/><br/>
+- Setelah masuk, masukkan konfigurasi :<br/><br/>![3](https://github.com/darblietz/devops17-dumbways--M-Yusuf-Haidar-Week-2-Web-Server-Load-Balancing/assets/98991080/51073bd9-29f7-4baf-9a3f-ebd0d96afb79)<br/><br/>
 - <br/><br/><br/><br/>
 
 
