@@ -25,6 +25,8 @@
 - Keluar dari folder dumbways, dan masuk ke file nginx dengan perintah ``$ sudo nano nginx.conf``<br/><br/>![4](https://github.com/darblietz/devops17-dumbways--M-Yusuf-Haidar-Week-2-Web-Server-Load-Balancing/assets/98991080/13d6b9a0-a6f7-4e91-982b-ae001a0abc15)<br/><br/>
 - Pergi ke bagian **include**, dan masukan lokasi dari direktori yang berisi konfigurasi yang sudah dibuat.<br/><br/>![5](https://github.com/darblietz/devops17-dumbways--M-Yusuf-Haidar-Week-2-Web-Server-Load-Balancing/assets/98991080/bfe471d6-732c-4c40-a143-b5c51065930d)<br/><br/>
 - Untuk mengecek konfigurasi dengan perintah ``$ sudo nginx -t``<br/><br/>![6](https://github.com/darblietz/devops17-dumbways--M-Yusuf-Haidar-Week-2-Web-Server-Load-Balancing/assets/98991080/c9b3090d-2ecb-4f6a-9db0-f29f977f5050)<br/><br/>
+- Jika sudah **susuccessful** tinggal merestart nginx-nya ``$ sudo systemctl restart nginx``<br/><br/>![7](https://github.com/darblietz/devops17-dumbways--M-Yusuf-Haidar-Week-2-Web-Server-Load-Balancing/assets/98991080/72e00b62-c235-434a-9127-56e7a5e01c3a)<br/><br/>
+- Sekarang membuat Virtual Host, masuk ke local server dan masuk ke dalam file ``$ /etc/hosts``<br/><br/>![8](https://github.com/darblietz/devops17-dumbways--M-Yusuf-Haidar-Week-2-Web-Server-Load-Balancing/assets/98991080/514d3a2c-5dbf-4c31-be73-e9bbf4e66d4d)<br/><br/>
 - <br/><br/><br/><br/>
 
 
