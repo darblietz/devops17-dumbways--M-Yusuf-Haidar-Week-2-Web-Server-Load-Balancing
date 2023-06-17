@@ -29,7 +29,8 @@
 - Sekarang membuat Virtual Host, masuk ke local server dan masuk ke dalam file ``$ /etc/hosts``<br/><br/>![8](https://github.com/darblietz/devops17-dumbways--M-Yusuf-Haidar-Week-2-Web-Server-Load-Balancing/assets/98991080/514d3a2c-5dbf-4c31-be73-e9bbf4e66d4d)<br/><br/>
 - Lakukan secara manual juga difolder kita dan masukkan ip dan nama domain <br/><br/>![9](https://github.com/darblietz/devops17-dumbways--M-Yusuf-Haidar-Week-2-Web-Server-Load-Balancing/assets/98991080/7cd3e1b9-9f6e-4498-92dd-d1fb798f1de6)
 ![10](https://github.com/darblietz/devops17-dumbways--M-Yusuf-Haidar-Week-2-Web-Server-Load-Balancing/assets/98991080/dd63db55-0670-4095-b579-e64a9435552f)<br/><br/>
-- Dan kita coba akses Nama domain yang sudah kita buat di Web browser.<br/><br/>
+- Dan kita coba akses Nama domain yang sudah kita buat di Web browser.<br/><br/>![7  Akses aplikasi di Web](https://github.com/darblietz/devops17-dumbways--M-Yusuf-Haidar-Week-2-Web-Server-Load-Balancing/assets/98991080/7b4546ed-d0c2-4716-b65d-43f252998cae)
+
 
 
 
